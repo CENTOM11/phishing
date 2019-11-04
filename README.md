@@ -1,14 +1,22 @@
 DOCUMENTATION
+
 INTRODUCTION:
+
 I have built a classification model for classifying whether a website is a phishing website or not. The models used were all supervised learning algorithms. 
 The packages used are:
+
 •	SKLEARN
+
 •	PANDAS 
+
 •	NUMPY
+
 •	XGBOOST
+
 •	PLOTLY
 
 ABOUT DATA:
+
 The Phishing dataset used for creating the model is having 30 variables and 1 target variable. There are 2456 records in total. 
 
  
@@ -35,18 +43,33 @@ The following plot gives better understanding of the target variable:
 
  
 
+
 METHODOLOGY USED:
+
+
 1.The dataset was divided into two parts: Feature and Target variable.
+
 2.Then the dataset was divided into train data, test data and validation data.
+
 3.The following classification models were used for training, testing and validation: 
+
 •	Support vector classifier (linear kernel)
+
 •	Support vector classifier(rbf kernel)
+
 •	K nearest neighbor
+
 •	Logistic regression
+
+
 •	Naïve Bayes
+
 •	Decision tree classifier 
+
 •	Random forest
+
 •	XGboost classifier
+
 
 
 
