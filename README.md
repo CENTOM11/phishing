@@ -58,10 +58,14 @@ METHODOLOGY USED:
 
 OBSERVATIONS:
 From the above table we can infer that decision tree model gives the maximum accuracy i.e. 99.75%. But even though decision tree is giving pretty good accuracy , it suffers from the problem of over fitting. The difference in the accuracy on validation and test shows this. 
-Random forest don’t suffer over fitting, but it was not as good as XGboost classifier. From the random forest model we were able to identify the important features in the dataset. It is noted that the following variables influences the target variable more while model building: 
+Random forest don’t suffer over fitting, but it was not as good as XGboost classifier. From the random forest model we were able to identify the important features in the dataset. It is noted that the following variables influences the target variable more while model building:
+
 •	SSLfinal_state
+
 •	URL_of_anchor
+
 •	Web_trafic
+
 •	Prefix_suffix
 
 
