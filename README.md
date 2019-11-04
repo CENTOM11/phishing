@@ -20,8 +20,10 @@ The Phishing dataset used for creating the model is having 30 variables and 1 ta
 
 The variables present in the data are as follows:
  
-It is noted that there was no missing value present in the data. The target variable in the dataset consist of two classes which are as follows:
+It is noted that there was no missing value present in the data. The target variable in the dataset consist of two classes which are as follows
+
 •	1 indicates the website is a phishing website.
+
 •	0 indicates the website is a non-phishing website.
 
 
@@ -52,16 +54,6 @@ METHODOLOGY USED:
 
 
 
-The accuracy and the corresponding validation accuracy for each model is shown in the      following table:
-S.no	MODEL	ACCURACY (%)	VALIDATION ACCURACY (%)
-1	Support vector classifier (linear)	92.40	94.18
-2	Support vector classifier(rbf)	92.67	94.37
-3	Logistic regression	92.13	94.57
-4	K nearest neighbor	95.43	93.6
-5	Naïve Bayes	92.19	89.6
-6	Decision trees	99.75	95.93
-7	Random forest	96.76	95.54
-8	XG Boost	97.59	96.32
  
 
 OBSERVATIONS:
