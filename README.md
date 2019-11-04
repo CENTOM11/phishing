@@ -73,7 +73,9 @@ Random forest don’t suffer over fitting, but it was not as good as XGboost cla
 The following plot is a plot to show the feature importance:
  
 
-XGBoost model has the best combination of prediction performance and processing time compared to other algorithms. This algorithm was giving 97.59% accuracy on training and 96.32% on validation.
+XGBoost model has the best combination of prediction performance and processing time compared to other algorithms. 
+This algorithm was giving 97.59% accuracy on training and 96.32% on validation.
+
 So, the final selected model is XGBoost.
 
 
